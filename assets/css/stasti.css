@@ -1,0 +1,256 @@
+/*SECTION ONE*/
+
+.st-section-one .heading-one {
+    padding-top: 110px;
+    padding-bottom: 54px;
+}
+
+.st-section-one .text-one {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 140px;
+}
+
+
+.st-section-one .wrapper {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.stasts {
+    width: 160px;
+    height: 160px;
+    margin: 7px;
+    float: left;
+    position: relative;
+}
+
+@media only screen and (max-width: 1050px) {
+    .st-section-one .wrapper {
+        width: 700px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .st-section-one .wrapper {
+        width: 298px;
+    }
+
+    .stasts {
+        width: 134px;
+        height: 134px;
+    }
+}
+
+.one {
+    background-image: url(../img/1.png);
+}
+
+.two {
+    background-image: url(../img/2.png);
+}
+
+.three {
+    background-image: url(../img/3.png);
+}
+
+.four {
+    background-image: url(../img/4.png);
+}
+
+.six {
+    background-image: url(../img/6.png);
+}
+
+.seven {
+    background-image: url(../img/7.png);
+}
+
+.eight {
+    background-image: url(../img/8.png);
+}
+
+.nine {
+    background-image: url(../img/9.png);
+}
+
+.ten {
+    background-image: url(../img/10.png);
+}
+
+.eleven {
+    background-image: url(../img/11.png);
+}
+
+.twelve {
+    background-image: url(../img/12.png);
+}
+
+.thirteen {
+    background-image: url(../img/13.png);
+}
+
+.fourteen {
+    background-image: url(../img/14.png);
+}
+
+.fifteen {
+    background-image: url(../img/15.png);
+}
+
+.sixteen {
+    background-image: url(../img/16.png);
+}
+
+.seventeen {
+    background-image: url(../img/17.png);
+}
+
+.color {
+    position: absolute;
+    width: 100%;
+    left: 0;
+}
+
+.st-section-one span {
+    position: absolute;
+    bottom: -9px;
+    right: 10px;
+    z-index: 2;
+    color: white;
+    font-family: "Oswald";
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 53px;
+    letter-spacing: 0em;
+    text-align: right;
+}
+
+.name {
+    position: relative;
+    z-index: 2;
+    padding-top: 60px;
+    font-family: "Oswald";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+}
+
+.stasts-text {
+    position: relative;
+    z-index: 2;
+    padding-top: 50px;
+    color: white;
+    font-family: "Oswald";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+/*SECTION TWO*/
+
+.st-section-two {
+    clear: both;
+}
+
+.heading2 {
+    padding-top: 140px;
+    font-family: "Oswald";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #2F4858;
+}
+
+.st-section-two .text-two {
+    font-weight: 500;
+    width: 45%;
+    margin: 0 auto;
+    padding-bottom: 65px;
+}
+
+@media only screen and (max-width: 570px) {
+    .st-section-one .text-one {
+        width: 95%;
+    }
+}
+
+@media only screen and (max-width: 760px) {
+    .st-section-two .text-two {
+        width: 85%;
+    }
+}
+
+.img1 {
+    background-image: url(../img/9877fbc1-1605-4322-9e06-f90dba39e238\ 1.png);
+    background-size: cover;
+    background-position: center top;
+}
+
+.img2 {
+    background-image: url(../img/girts-ny-1\ 1.png);
+    background-size: cover;
+    background-position: center top;
+}
+
+.img3 {
+    background-image: url(../img/IMG-5556\ 1.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+.st-section-two .wrapper {
+    width: 72.8%;
+    margin: 0 auto;
+}
+
+.st-section-two .name {
+    align-items: flex-end;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 36px;
+    margin-bottom: -7px;
+}
+
+.st-section-two img {
+    height: 100%;
+}
+
+.first-role {
+    width: 100%;
+}
+
+.col-lg .text-two {
+    width: 98%;
+    color: white;
+    position: relative;
+    z-index: 2;
+    padding: 10px 0px;
+}
+
+.st-section-two .col-lg {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 360px;
+    padding: 0px;
+    margin-bottom: 25px;
+}
+
+footer {
+    clear: both;
+    margin-top: 105px;
+}

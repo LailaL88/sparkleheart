@@ -1,0 +1,340 @@
+/*SECTION ONE*/
+
+.p-s-section-one {
+  padding-top: 110px;
+  padding-bottom: 100px;
+  text-align: center;
+}
+
+.p-s-wrapper {
+  width: 91%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.p-s-heading {
+  font-family: "Oswald";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 44px;
+  letter-spacing: 0em;
+  color: #2F4858;
+}
+
+.p-s-wrapper img {
+  padding-top: 70px;
+  padding-bottom: 60px;
+}
+
+.p-s-section-one .text-one {
+  text-align: center;
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.p-s-section-one .text-two {
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+
+@media only screen and (max-width: 570px) {
+  .p-s-section-one .text-two {
+    width: 85%;
+  }
+}
+
+.left {
+  width: 60%;
+}
+
+.right {
+  width: 65%;
+}
+
+.button {
+  height: 50px;
+  width: 233px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  background: #ffa800;
+  border-radius: 100px;
+  margin: 0 auto;
+  border: none;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.button:hover {
+  background-color: rgb(252, 195, 6);
+}
+
+.button:focus {
+  outline: none;
+}
+
+/*SECTION TWO*/
+.p-s-section-two {
+  padding-top: 50px;
+  height: 445px;
+  position: relative;
+}
+
+.ripped-border {
+  position: absolute;
+  width: 100%;
+  margin-top: -3px;
+}
+
+.ripped-border2 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.firstImg {
+  background-image: url("../img/Lauma_4.png");
+  background-size: cover;
+  background-position: center;
+  height: 372px;
+  width: 21%;
+  float: left;
+}
+
+.fourthImg {
+  background-image: url("../img/Lauma_3.png");
+  height: 380px;
+  width: 22%;
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
+
+.secondImg {
+  background-image: url("../img/Brinuma_meita-3.png");
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+}
+
+.thirdImg {
+  background-image: url("../img/Arta_2\ 1.png");
+  height: 190px;
+  background-size: cover;
+  background-position: center;
+}
+
+.fifthImg {
+  background-image: url("../img/Brinuma_meita-2.png");
+  height: 383px;
+  width: 35.2%;
+  float: left;
+  background-size: cover;
+  background-position: center;
+}
+
+.secondCol {
+  float: left;
+  width: 21.8%;
+}
+
+@media only screen and (max-width:450px) {
+
+  .firstImg,
+  .secondCol,
+  .fourthImg,
+  .fifthImg {
+    width: 50%;
+  }
+
+  .fifthImg {
+    height: 192px;
+  }
+
+  .secondImg {
+    height: 100px;
+  }
+
+  .thirdImg {
+    height: 100px;
+  }
+
+  .fourthImg {
+    height: 190px;
+  }
+
+  .firstImg {
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width:1200px) and (min-width:450px) {
+  .fifthImg {
+    height: 195px;
+  }
+
+  .secondImg {
+    height: 99px;
+  }
+
+  .thirdImg {
+    height: 99px;
+  }
+
+  .fourthImg {
+    height: 190px;
+  }
+
+  .firstImg {
+    height: 195px;
+  }
+
+  .p-s-section-two {
+    height: 250px;
+  }
+}
+
+/* SECTION FOUR*/
+
+.p-s-section-three {
+  padding-bottom: 49px;
+}
+
+h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+  color: #2f4858;
+  margin-top: 152px;
+  margin-bottom: 51px;
+}
+
+.p-s-section-three textarea {
+  display: block;
+}
+
+.text-input,
+textarea {
+  background: rgba(196, 196, 196, 0.4);
+  border-radius: 6px;
+  border: none;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+
+  color: #2f4858;
+  margin-bottom: 15px;
+  height: 43px;
+  width: 100%;
+  padding-top: 6px;
+  padding-left: 12px;
+}
+
+textarea {
+  height: 232px;
+}
+
+.form-wrapper {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.left-column {
+  padding-right: 10px;
+}
+
+.right-column {
+  padding-left: 10px;
+}
+
+.form-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #2f4858;
+}
+
+.checkbox {
+  margin-top: 20px;
+  margin-right: 23px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+label {
+  width: 90%;
+  display: block;
+  white-space: nowrap;
+  margin-bottom: 50px;
+}
+
+label span {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+  position: relative;
+  margin-top: 16px;
+}
+
+.p-s-section-three button {
+  height: 62px;
+  width: 182px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  background: #ffa800;
+  border-radius: 100px;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  margin-bottom: 140px;
+}
+
+.p-s-section-three button:hover {
+  background-color: rgb(252, 195, 6);
+}
+
+@media only screen and (max-width: 430px) {
+  .form-wrapper {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .left-column {
+    padding-right: 15px;
+  }
+
+  .right-column {
+    padding-left: 15px;
+  }
+}

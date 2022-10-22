@@ -1,0 +1,154 @@
+/*SECTION ONE*/
+
+.uz-section-one {
+  padding-top: 110px;
+}
+
+.uz-section-one .heading-one {
+  padding-bottom: 50px;
+}
+
+.uz-section-one .text-two {
+  width: 60%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 570px) {
+  .uz-section-one .text-two {
+    width: 85%;
+  }
+}
+
+/* SECTION FOUR*/
+
+.p-s-section-three {
+  padding-bottom: 49px;
+}
+
+h2 {
+  font-family: "Oswald";
+  font-style: normal;
+  font-size: 30px;
+  line-height: 44px;
+  text-align: center;
+  color: #2f4858;
+  margin-top: 157px;
+  margin-bottom: 60px;
+}
+
+.p-s-section-three textarea {
+  display: block;
+}
+
+.text-input,
+textarea {
+  background: rgba(196, 196, 196, 0.4);
+  border-radius: 6px;
+  border: none;
+
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.015em;
+
+  color: #2f4858;
+  margin-bottom: 18px;
+  height: 43px;
+  width: 100%;
+  padding-top: 6px;
+  padding-left: 12px;
+}
+
+textarea {
+  height: 232px;
+}
+
+.form-wrapper {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.left-column {
+  padding-right: 10px;
+}
+
+.right-column {
+  padding-left: 10px;
+}
+
+.form-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+
+  color: #2f4858;
+}
+
+.checkbox {
+  margin-top: 20px;
+  margin-right: 23px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+
+label {
+  width: 90%;
+  display: block;
+  white-space: nowrap;
+  margin-bottom: 50px;
+}
+
+label span {
+  display: inline-block;
+  white-space: normal;
+  vertical-align: top;
+  position: relative;
+  margin-top: 16px;
+}
+
+.p-s-section-three button {
+  height: 62px;
+  width: 182px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #ffffff;
+  background: #ffa800;
+  border-radius: 100px;
+  margin: 0 auto;
+  border: none;
+  outline: none;
+  margin-bottom: 140px;
+}
+
+.p-s-section-three button:hover {
+  background-color: rgb(252, 195, 6);
+}
+
+@media only screen and (max-width: 430px) {
+  .form-wrapper {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .left-column {
+    padding-right: 15px;
+  }
+
+  .right-column {
+    padding-left: 15px;
+  }
+}

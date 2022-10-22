@@ -1,0 +1,137 @@
+/*SECTION ONE*/
+
+.sa-section-one .heading-one {
+    padding-top: 110px;
+    padding-bottom: 54px;
+}
+
+.sa-section-one .text-two {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.sa-section-one .wrapper {
+    width: 44%;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 570px) {
+    .sa-section-one .text-two {
+        width: 85%;
+    }
+
+    .sa-section-one .wrapper {
+        width: 70%;
+    }
+}
+
+.sa-section-one select {
+    width: 100%;
+}
+
+.select-header {
+    padding-top: 95px;
+    font-family: "Montserrat";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.015em;
+    text-align: left;
+    color: #FFA800;
+}
+
+/*SECTION TWO*/
+
+.sa-section-two {
+    margin-top: 65px;
+    padding-top: 21%;
+    padding-bottom: 210px;
+    position: relative;
+    background-image: url(../img/IMG_8281\ 1.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.sa-section-two h3 {
+    padding-top: 23px;
+    font-family: "Oswald";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: right;
+    color: #2F4858;
+}
+
+.sa-section-two .text-two {
+    padding-top: 20px;
+    text-align: right;
+}
+
+.map {
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+}
+
+.map-info {
+    width: 35.5%;
+    padding-right: 23px;
+    margin-left: 38.5%;
+    background: rgba(255, 168, 0, 0.5);
+    border-radius: 14px;
+}
+
+@media only screen and (max-width:1200px) {
+    .map-info {
+        text-align: right;
+    }
+}
+
+.map-info img {
+    padding-top: 60px;
+    padding-left: 28px;
+}
+
+.plus-minus {
+    position: absolute;
+    top: 62%;
+    right: 4.4%;
+}
+
+.plus {
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width:767px) {
+    .map-info {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .plus-minus {
+        right: 10%;
+        top: 73%;
+
+    }
+
+    .plus,
+    .minus {
+        display: inline;
+        margin-bottom: 0;
+    }
+}
+
+footer {
+    margin-top: -15px;
+}
+
+.sa-section-two .blue-border {
+    clear: both;
+    margin-top: 150px;
+    width: 100%;
+    position: absolute;
+    bottom: -3px;
+}

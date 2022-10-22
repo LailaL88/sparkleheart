@@ -1,0 +1,489 @@
+/* The Overlay (background) */
+.overlay {
+  /* Height & width depends on how you want to reveal the overlay (see JS below) */
+  height: 100%;
+  width: 0;
+  position: fixed;
+  /* Stay in place */
+  z-index: 5;
+  /* Sit on top */
+  left: 0;
+  top: 0;
+  background-color: white;
+  overflow-x: hidden;
+  /* Disable horizontal scroll */
+  transition: 0.5s;
+  /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+  position: relative;
+  top: 10%;
+  /* 25% from the top */
+  width: 100%;
+  /* 100% width */
+  text-align: center;
+  /* Centered text/links */
+  margin-top: 30px;
+  /* 30px top margin to avoid conflict with the close button on smaller screens */
+}
+
+/* The navigation links inside the overlay */
+.overlay-content a {
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+
+  padding: 20px 8px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  /* Display block instead of inline */
+  transition: 0.3s;
+  /* Transition effects on hover (color) */
+}
+
+.overlay-logo {
+  margin-left: 20px;
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover,
+.overlay a:focus {
+  color: grey;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+  position: absolute;
+  top: 0;
+  right: 45px;
+  font-size: 60px;
+  color: black;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 0;
+    right: 35px;
+  }
+}
+
+/*BOOTSRAP NAVBAR*/
+
+.navbar .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #060606;
+  margin-right: 16.5px;
+  padding-top: 35px;
+}
+
+.navbar .navbar-nav .nav-item .active-link {
+  border-bottom: 3px solid #FFA800;
+  height: 68px;
+  font-weight: 600;
+  height: max-content;
+}
+
+.navbar .navbar-nav {
+  margin: 0 auto;
+  padding-left: 50px;
+}
+
+.navbar {
+  height: 92.51px;
+}
+
+.navbar .navbar-brand img {
+  margin-left: 47px;
+}
+
+.navbar .navbar-toggler {
+  color: black;
+  outline: none;
+}
+
+@media only screen and (max-width: 1070px) {
+  .navbar .navbar-nav {
+    margin-left: 0;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .navbar .navbar-brand img {
+    margin-top: -15px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .navbar .navbar-brand img {
+    margin-left: 5px;
+  }
+}
+
+.language {
+  padding-left: 28px;
+}
+
+/*SECTION ONE*/
+
+.section-one {
+  padding-top: 110px;
+  padding-bottom: 130px;
+}
+
+.heading-one {
+  color: #2F4858;
+  font-family: "Oswald";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 71px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.text-two {
+  color: #2F4858;
+  font-family: "Montserrat";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.paragraph-wrapper {
+  width: 43%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+@media only screen and (max-width:767px) {
+  .paragraph-wrapper {
+    width: 70%;
+  }
+}
+
+.fixed-anchor-link {
+  color: #2f4858;
+  font-size: 40px;
+  right: 1%;
+  margin-right: 30px;
+  position: fixed;
+  display:none;
+  top: 120px;
+  z-index:4;
+}
+
+#section5  {
+  position:absolute;
+}
+
+/*SECTION TWO*/
+
+.section-two {
+  background-image: url(../img/Juris\ \(1\)\ 1.jpg);
+  background-size: cover;
+  background-position: left 70% center;
+  z-index: -1;
+  position: relative;
+}
+
+.gradient {
+  width: 100%;
+  height: 700px;
+  position: absolute;
+  bottom: 0;
+}
+
+.heading-tree {
+  color: #FFFFFF;
+  font-family: "Oswald";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: center;
+
+}
+
+.paragraph-wrapper2 {
+  width: 60%;
+  margin: 0 auto;
+  padding-top: 460px;
+  padding-bottom: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+@media only screen and (max-width:515px) {
+  .paragraph-wrapper2 {
+    width: 80%;
+  }
+}
+
+
+.section-two-border {
+  z-index: 1;
+  position: relative;
+  bottom: -2px;
+  width: 100%;
+}
+
+@media only screen and (max-width:515px) {
+  .section-two-border {
+    margin-top: 10px;
+  }
+}
+
+.section-two .ripped-border {
+  width: 100%;
+  margin-top: -3px;
+}
+
+@media only screen and (max-width:840px) {
+  .section-two .ripped-border {
+    margin-top: -15px;
+  }
+}
+
+@media only screen and (max-width:540px) {
+  .section-two .ripped-border {
+    margin-top: -25px;
+  }
+}
+
+/*SECTION THREE*/
+
+.heading {
+  font-family: "Oswald";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 36px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2F4858;
+}
+
+.section-three .text-two {
+  text-align: left;
+  margin-top: -7px;
+}
+
+.text-one {
+  font-family: "Montserrat";
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #2F4858;
+}
+
+.section-three .text-one {
+  font-style: italic;
+}
+
+.section-three .text-one {
+  padding-top: 10px;
+}
+
+.wrapper3 {
+  width: 44%;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 190px;
+}
+
+@media only screen and (max-width:767px) {
+  .wrapper3 {
+    width: 80%;
+  }
+}
+
+.right-arrow {
+  margin-left: 38px;
+}
+
+/*FOOTER*/
+
+footer {
+  background-color: #2f4858;
+  height: 100%;
+  margin-top: -65px;
+}
+
+.footer div {
+  height: 20px;
+  clear: both;
+}
+
+.golden-logo {
+  margin-top: 33px;
+  margin-left: 16%;
+}
+
+.links a,
+.footer-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+
+  color: #ffffff;
+}
+
+.links a {
+  display: block;
+  text-decoration: none;
+  padding-left: 30px;
+}
+
+.ideja {
+  padding-top: 30px;
+  padding-bottom: 26px;
+}
+
+.link2 {
+  padding-bottom: 23px;
+}
+
+.link3 {
+  padding-bottom: 20px;
+}
+
+.link4 {
+  padding-bottom: 18px;
+}
+
+.link4 {
+  padding-bottom: 18px;
+}
+
+.link5 {
+  padding-bottom: 25px;
+}
+
+footer .heading {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  margin-top: 30px;
+  color: #ffffff;
+}
+
+.info1 p {
+  margin-left: -45px;
+}
+
+.account {
+  margin-top: -10px;
+}
+
+.info2 p {
+  text-align: right;
+  margin-right: 40px;
+}
+
+.adress {
+  margin-top: -10px;
+  margin-left: -15px;
+}
+
+.copyright {
+  margin-left: 60px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  float: left;
+  margin-top: -5px;
+}
+
+.politika {
+  float: right;
+  margin-right: 50px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 5px;
+  color: #ffffff;
+}
+
+.fbicon,
+.insticon {
+  float: right;
+  margin-top: 37px;
+}
+
+.insticon {
+  margin-right: 35px;
+}
+
+.fbicon {
+  margin-right: 30px;
+}
+
+.blue-border {
+  fill: white;
+  margin-top: -5px;
+}
+
+@media only screen and (max-width: 1115px) {
+
+  .links,
+  .info1 {
+    display: none;
+  }
+
+  .info2 p {
+    text-align: left;
+  }
+
+  .adress {
+    margin-left: 0px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .copyright,
+  .politika {
+    display: block;
+    float: none;
+    margin-left: 17px;
+  }
+
+  .fbicon,
+  .insticon {
+    float: left;
+    margin-bottom: 20px;
+  }
+}
